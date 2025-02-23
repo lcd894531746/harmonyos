@@ -1,0 +1,202 @@
+[2025-02-23T23:58:45.623] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-02-23T23:58:45.860] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: false,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-02-23T23:58:45.866] [DEBUG] debug-file - hvigorfile, resolving /Users/xiaoadong/Desktop/WORK/github/harmonyos/hvigorfile.ts
+[2025-02-23T23:58:46.579] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: appTasks], plugins: [] } }
+[2025-02-23T23:58:46.686] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-02-23T23:58:46.695] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2025-02-23T23:58:46.696] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2025-02-23T23:58:46.699] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-02-23T23:58:46.723] [DEBUG] debug-file - Sdk init in 30 ms 
+[2025-02-23T23:58:46.688] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  }
+} in this build.
+[2025-02-23T23:58:46.732] [DEBUG] debug-file - Project task initialization takes 9 ms 
+[2025-02-23T23:58:46.735] [DEBUG] debug-file - hvigorfile, resolving /Users/xiaoadong/Desktop/WORK/github/harmonyos/entry/hvigorfile.ts
+[2025-02-23T23:58:46.744] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-02-23T23:58:46.750] [DEBUG] debug-file - project has submodules:entry
+[2025-02-23T23:58:46.759] [DEBUG] debug-file - Configuration task cost before running: 908 ms 
+[2025-02-23T23:58:46.762] [DEBUG] debug-file - entry : clean cost memory 0.22434234619140625
+[2025-02-23T23:58:46.767] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2025-02-23T23:58:46.748] [DEBUG] debug-file - Module entry task initialization takes 3 ms 
+[2025-02-23T23:58:46.760] [DEBUG] debug-file - Executing task :entry:clean
+[2025-02-23T23:58:45.625] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.2',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2025-02-23T23:58:45.861] [DEBUG] debug-file - Since current hvigor version 5.14.3 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2025-02-23T23:58:46.580] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: appTasks]
+[2025-02-23T23:58:46.686] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-02-23T23:58:46.776] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-02-23T23:58:46.693] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-02-23T23:58:46.732] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-02-23T23:58:46.739] [DEBUG] debug-file - hvigorfile, require result:  { default: { system: [Function: hapTasks], plugins: [] } }
+[2025-02-23T23:58:46.745] [DEBUG] debug-file - Target 'default' config: {}
+[2025-02-23T23:58:46.750] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-02-23T23:58:46.762] [DEBUG] debug-file - runTaskFromQueue task cost before running: 910 ms 
+[2025-02-23T23:58:46.769] [DEBUG] debug-file - Module 'entry' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "default"
+} in this build.
+[2025-02-23T23:58:46.748] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-02-23T23:58:46.761] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2025-02-23T23:58:45.626] [DEBUG] debug-file - env: daemon=false
+[2025-02-23T23:58:45.861] [DEBUG] debug-file - Cache service initialization finished in 1 ms 
+[2025-02-23T23:58:46.686] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-02-23T23:58:46.778] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-02-23T23:58:46.732] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/xiaoadong/Desktop/WORK/github/harmonyos/hvigorfile.ts
+[2025-02-23T23:58:46.739] [DEBUG] debug-file - hvigorfile, binding system plugins [Function: hapTasks]
+[2025-02-23T23:58:46.745] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-02-23T23:58:46.751] [DEBUG] debug-file - load to the disk finished
+[2025-02-23T23:58:46.762] [INFO] debug-file - Finished :entry:clean... after 2 ms 
+[2025-02-23T23:58:46.771] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [ 'product=default' ],
+  sync: true,
+  parallel: true,
+  incremental: true,
+  daemon: false,
+  _: [],
+  env: {
+    PATH: '/Applications/DevEco-Studio.app/Contents/jbr/Contents/Home/bin:/Applications/DevEco-Studio.app/Contents/tools/node/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/DevEco-Studio.app/Contents/tools/node/bin:/Applications/DevEco-Studio.app/Contents/jbr/Contents/Home/bin:/Users/xiaoadong/.nvm/versions/node/v20.18.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin',
+    MANPATH: '/Users/xiaoadong/.nvm/versions/node/v20.18.1/share/man:/opt/homebrew/share/man::',
+    IJ_RESTARTER_LOG: '/Users/xiaoadong/Library/Logs/Huawei/DevEcoStudio5.0/restarter.log',
+    DEVECO_SDK_HOME: '/Applications/DevEco-Studio.app/Contents/sdk',
+    JAVA_HOME: '/Applications/DevEco-Studio.app/Contents/jbr/Contents/Home',
+    'npm_config_update-notifier': 'false',
+    HOMEBREW_PREFIX: '/opt/homebrew',
+    COMMAND_MODE: 'unix2003',
+    NVM_INC: '/Users/xiaoadong/.nvm/versions/node/v20.18.1/include/node',
+    LOGNAME: 'xiaoadong',
+    HOMEBREW_REPOSITORY: '/opt/homebrew',
+    XPC_SERVICE_NAME: 'application.com.huawei.devecostudio.ds.37175809.37176582',
+    PWD: '/Users/xiaoadong/Desktop/WORK/github/harmonyos',
+    INFOPATH: '/opt/homebrew/share/info:',
+    'user.country': 'CN',
+    __CFBundleIdentifier: 'com.huawei.devecostudio.ds',
+    CREATED_BY: 'deveco',
+    NVM_CD_FLAGS: '-q',
+    SHELL: '/bin/zsh',
+    NVM_DIR: '/Users/xiaoadong/.nvm',
+    NODE_HOME: '/Applications/DevEco-Studio.app/Contents/tools/node/bin',
+    OLDPWD: '/',
+    HOMEBREW_CELLAR: '/opt/homebrew/Cellar',
+    USER: 'xiaoadong',
+    TMPDIR: '/var/folders/hr/n78yzg2j1v3f9r4cmy0bh_480000gn/T/',
+    'npm_config_strict-ssl': '',
+    NO_UPDATE_NOTIFIER: 'true',
+    SSH_AUTH_SOCK: '/private/tmp/com.apple.launchd.jlzoKXHBdT/Listeners',
+    'npm_config_@ohos:registry': 'https://repo.harmonyos.com/npm/',
+    XPC_FLAGS: '0x0',
+    __CF_USER_TEXT_ENCODING: '0x1F5:0x19:0x34',
+    LC_CTYPE: 'zh_CN.UTF-8',
+    IDEA_INITIAL_DIRECTORY: '/',
+    NVM_BIN: '/Users/xiaoadong/.nvm/versions/node/v20.18.1/bin',
+    HOME: '/Users/xiaoadong',
+    'npm_config_auto-install-peers': 'false',
+    ohpmBin: '/Applications/DevEco-Studio.app/Contents/tools/ohpm/bin/ohpm',
+    config: '{"product":"default"}',
+    WORKSPACE_DIR: '/Users/xiaoadong/.hvigor/project_caches/7b86f9b85276268571aebe256801201e/workspace',
+    NODE_PATH: '/Users/xiaoadong/.hvigor/project_caches/7b86f9b85276268571aebe256801201e/workspace/node_modules',
+    OHOS_SDK_NATIVE: '/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native'
+  },
+  analyze: 'normal'
+}
+[2025-02-23T23:58:46.748] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/xiaoadong/Desktop/WORK/github/harmonyos/entry/hvigorfile.ts
+[2025-02-23T23:58:45.626] [DEBUG] debug-file - no-daemon, use the parent process.execArgv --max-old-space-size=8192,--expose-gc
+[2025-02-23T23:58:46.686] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-02-23T23:58:46.779] [DEBUG] debug-file - Current worker pool is stopped or closed.
+[2025-02-23T23:58:46.732] [DEBUG] debug-file - hvigorfile, resolve finished /Users/xiaoadong/Desktop/WORK/github/harmonyos/hvigorfile.ts
+[2025-02-23T23:58:46.745] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+}
+[2025-02-23T23:58:46.754] [DEBUG] debug-file - Module harmonyos Collected Dependency: 
+[2025-02-23T23:58:46.762] [DEBUG] debug-file - Executing task ::clean
+[2025-02-23T23:58:46.775] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-02-23T23:58:46.748] [DEBUG] debug-file - hvigorfile, resolve finished /Users/xiaoadong/Desktop/WORK/github/harmonyos/entry/hvigorfile.ts
+[2025-02-23T23:58:46.779] [DEBUG] debug-file - Clear worker 0.
+[2025-02-23T23:58:46.745] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "default"
+}
+[2025-02-23T23:58:46.755] [DEBUG] debug-file - Module harmonyos's total dependency: 0
+[2025-02-23T23:58:46.762] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2025-02-23T23:58:46.775] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-02-23T23:58:46.779] [DEBUG] debug-file - Worker 0 has been cleared.
+[2025-02-23T23:58:46.745] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-02-23T23:58:46.756] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-02-23T23:58:46.763] [DEBUG] debug-file - harmonyos : clean cost memory 0.0276336669921875
+[2025-02-23T23:58:46.779] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-02-23T23:58:46.745] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true,
+    "useNormalizedOHMUrl": true
+  },
+  "name": "debug"
+} in this build.
+[2025-02-23T23:58:46.756] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-02-23T23:58:46.763] [DEBUG] debug-file - runTaskFromQueue task cost before running: 911 ms 
+[2025-02-23T23:58:46.779] [DEBUG] debug-file - Current busy worker size: 0.
+[2025-02-23T23:58:46.758] [DEBUG] debug-file - Configuration phase cost:895 ms 
+[2025-02-23T23:58:46.763] [INFO] debug-file - Finished ::clean... after 1 ms 
+[2025-02-23T23:58:46.779] [DEBUG] debug-file - Clear worker 1.
+[2025-02-23T23:58:46.763] [DEBUG] debug-file - Executing task :entry:init
+[2025-02-23T23:58:46.779] [DEBUG] debug-file - Worker 1 has been cleared.
+[2025-02-23T23:58:46.763] [DEBUG] debug-file - entry : init cost memory 0.01016998291015625
+[2025-02-23T23:58:46.779] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-02-23T23:58:46.763] [DEBUG] debug-file - runTaskFromQueue task cost before running: 911 ms 
+[2025-02-23T23:58:46.779] [DEBUG] debug-file - Current busy worker size: 0.
+[2025-02-23T23:58:46.763] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2025-02-23T23:58:46.779] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-02-23T23:58:46.763] [DEBUG] debug-file - Executing task ::init
+[2025-02-23T23:58:46.785] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2025-02-23T23:58:46.763] [DEBUG] debug-file - harmonyos : init cost memory 0.00894927978515625
+[2025-02-23T23:58:46.786] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2025-02-23T23:58:46.763] [DEBUG] debug-file - runTaskFromQueue task cost before running: 912 ms 
+[2025-02-23T23:58:46.786] [DEBUG] debug-file - Current worker pool is terminated.
+[2025-02-23T23:58:46.763] [INFO] debug-file - Finished ::init... after 1 ms 
