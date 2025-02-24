@@ -4,16 +4,39 @@
 struct Index {
   build() {
     Row(){
-      Text("<")
-      Text('个人中心')
-      Image($r('app.media.app_icon')).width(20)
+      Row(){
+        Column({space:10}){
+          Text('玩一玩').textAlign(TextAlign.Start).width(100).fontWeight(700)
+          Row(){
+            Text('签到兑礼').fontColor(Color.Grey)
+            Text('|').margin({
+              right:5,
+              left:5
+            })
+            Text('超多大奖').margin({
+              right:10
+            })
+              .fontColor(Color.Grey)
+            Text('超好玩')
+              .fontColor(Color.Grey)
+          }
+        }
+        .alignItems(HorizontalAlign.Start)
+        Row(){
+          Image($r('app.media.app_icon')).width(50)
+            .margin({
+              right:20
+            })
+          Text('>')
+        }
+      }
+      .padding(20)
+      .backgroundColor(Color.White)
+      .borderRadius(5)
+      .width('100%')
+      .justifyContent(FlexAlign.SpaceBetween)
     }
-    .justifyContent(FlexAlign.SpaceBetween)
-    .width('100%')
     .padding(10)
-    .border({
-      width:2,
-      color:Color.Green
-    })
+    .backgroundColor(Color.Grey)
   }
 }
