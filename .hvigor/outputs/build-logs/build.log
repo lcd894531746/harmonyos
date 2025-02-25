@@ -14419,3 +14419,8 @@
 [2025-02-25T13:36:27.887] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
 [2025-02-25T13:36:28.102] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
 [2025-02-25T13:36:28.103] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-02-25T13:46:47.592] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-25T13:46:47.593] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-25T13:46:47.597] [DEBUG] debug-file - bad codeSnippet [object Object]
+[2025-02-25T13:46:47.600] [DEBUG] debug-file - watch worker: worker is ready to be terminated.
+[2025-02-25T13:46:47.600] [DEBUG] debug-file - Server currently has 0 watch-worker
