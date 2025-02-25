@@ -1,3 +1,9 @@
 # 默认忽略的文件
 /shelf/
 /workspace.xml
+/previewer/2in1/2in1SettingConfig_2in1.json
+/previewer/phone/phoneSettingConfig_Foldable.json
+/previewer/phone/phoneSettingConfig_Phone.json
+/previewer/phone/phoneSettingConfig_rd.json
+/previewer/previewConfigV2.json
+/previewer/tablet/tabletSettingConfig_Tablet.json
