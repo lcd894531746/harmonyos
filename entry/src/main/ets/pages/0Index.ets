@@ -3,40 +3,49 @@
 @Component
 struct Index {
   build() {
-    Row(){
+    Column(){
+      // 顶部
       Row(){
-        Column({space:10}){
-          Text('玩一玩').textAlign(TextAlign.Start).width(100).fontWeight(700)
-          Row(){
-            Text('签到兑礼').fontColor(Color.Grey)
-            Text('|').margin({
-              right:5,
-              left:5
-            })
-            Text('超多大奖').margin({
-              right:10
-            })
-              .fontColor(Color.Grey)
-            Text('超好玩')
-              .fontColor(Color.Grey)
-          }
-        }
-        .alignItems(HorizontalAlign.Start)
-        Row(){
-          Image($r('app.media.app_icon')).width(50)
-            .margin({
-              right:20
-            })
-          Text('>')
-        }
+        Text('❌')
+        Text('帮助')
+      }.width('100%').justifyContent(FlexAlign.SpaceBetween)
+      Row(){
+        Image($r('app.media.jd')).width('100%')
+      }.height(200)
+
+      Column({space:20}){
+        TextInput({
+          placeholder:'国家/地址',
+        })
+        TextInput({
+          placeholder:'请输入手机号码',
+        }).type(InputType.Password)
       }
-      .padding(20)
-      .backgroundColor(Color.White)
-      .borderRadius(5)
-      .width('100%')
-      .justifyContent(FlexAlign.SpaceBetween)
-    }
-    .padding(10)
-    .backgroundColor(Color.Grey)
+      Row(){
+        Checkbox({
+          name:'Radio1',
+          group:'radioGroup'
+        }).select(false)
+        Text('我已经阅读同意我已经阅读同意我已经阅读同意我已经阅读同意')
+      }.width('90%').margin({top:20}).alignItems(VerticalAlign.Top)
+
+     Button('登录').width('100%').margin({top:30}).backgroundColor('red')
+
+      Row(){
+        Text('新用户注册')
+        Text('账号密码登录').margin({left:20,right:20})
+        Text('无法登录')
+      }.justifyContent(FlexAlign.Center).width('100%').margin({top:15})
+
+      Text('其他登录').width('100%').textAlign(TextAlign.Center).margin({top:80,bottom:20})
+
+      Row(){
+        Image($r('app.media.app_icon')).width(50).borderRadius(25)
+        Image($r('app.media.app_icon')).width(50).borderRadius(25)
+        Image($r('app.media.app_icon')).width(50).borderRadius(25)
+        Image($r('app.media.app_icon')).width(50).borderRadius(25)
+      }.width('100%').justifyContent(FlexAlign.SpaceAround)
+
+    }.width('100%').height("100%").backgroundColor(Color.White).padding(20).alignItems(HorizontalAlign.Start)
   }
 }
