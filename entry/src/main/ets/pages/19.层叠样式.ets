@@ -1,0 +1,39 @@
+
+@Entry
+@Component
+struct Index {
+  build() {
+    Column({
+      space:10
+    }){
+      Column(){
+        Stack({
+          alignContent:Alignment.BottomStart
+        }){
+          Image($r('app.media.1')).width('100%').borderRadius({topLeft:20,topRight:20})
+          Row(){
+            Row(){
+              Image($r('app.media.playCun')).width(30).margin({right:10})
+              Text('288万').fontColor(Color.White).fontSize(18).fontWeight(600)
+            }.margin({right:20})
+            Row(){
+              Image($r('app.media.pinlun')).width(30).margin({right:10})
+              Text('8655').fontColor(Color.White).fontSize(18).fontWeight(600)
+            }
+            Row(){
+              Text('4:33').fontColor(Color.White).fontSize(18).fontWeight(600)
+            }.layoutWeight(1).justifyContent(FlexAlign.End)
+          }
+        }
+        Row(){
+          Text('【凤凰传奇新歌】欢迎来到国风统治区：唢呐一响身神曲《铁衣服萨达萨达萨达撒旦撒服萨达萨达萨达撒旦撒服萨达萨达萨达撒旦撒服萨达萨达萨达撒旦撒服萨达萨达萨达撒旦撒服萨达萨达萨达撒旦撒服萨达萨达萨达撒旦撒》')
+            .maxLines(2).textOverflow({overflow:TextOverflow.Ellipsis}).lineHeight(30)
+        }.margin({bottom:30}).padding({left:15,right:15})
+        Row(){
+          Text('19万点赞').backgroundColor(Color.Pink).padding(5).borderRadius(8)
+          Text('...')
+        }.justifyContent(FlexAlign.SpaceBetween).width('100%').margin({bottom:30}).padding({left:15,right:15})
+      }.width('100%').height('100%').backgroundColor(Color.White).borderRadius({topLeft:20,topRight:20})
+    }.width('100%').height('100%').padding(10).backgroundColor('#999')
+  }
+}
