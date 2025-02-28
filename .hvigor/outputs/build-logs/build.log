@@ -4460,3 +4460,275 @@
 [2025-02-28T13:46:27.621] [DEBUG] debug-file - entry : default@PreviewArkTS cost memory -2.5365371704101562
 [2025-02-28T13:46:28.963] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
 [2025-02-28T13:46:28.964] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-02-28T13:46:31.529] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-02-28T13:46:31.529] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-02-28T13:46:31.530] [DEBUG] debug-file - Ark compile finished.
+[2025-02-28T13:46:31.531] [INFO] debug-file - Finished :entry:default@PreviewArkTS... after 3 s 917 ms 
+[2025-02-28T13:46:31.532] [DEBUG] debug-file - Executing task :entry:PreviewBuild
+[2025-02-28T13:46:31.532] [DEBUG] debug-file - entry : PreviewBuild cost memory 0.011627197265625
+[2025-02-28T13:46:31.532] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 131 ms 
+[2025-02-28T13:46:31.532] [INFO] debug-file - Finished :entry:PreviewBuild... after 1 ms 
+[2025-02-28T13:46:31.536] [DEBUG] debug-file - BUILD SUCCESSFUL in 4 s 135 ms 
+[2025-02-28T13:46:31.536] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2025-02-28T13:46:31.536] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2025-02-28T13:46:31.536] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2025-02-28T13:46:31.536] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GeneratePkgContextInfo is up-to-date.
+[2025-02-28T13:46:31.536] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2025-02-28T13:46:31.536] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2025-02-28T13:46:31.536] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2025-02-28T13:46:31.536] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:D:\work\web\harmonyos\entry\src\main\resources cache by regenerate.
+[2025-02-28T13:46:31.537] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:D:\work\web\harmonyos\entry\.preview\default\intermediates\merge_profile\default\module.json cache by regenerate.
+[2025-02-28T13:46:31.537] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:D:\work\web\harmonyos\entry\.preview\default\intermediates\res\default cache.
+[2025-02-28T13:46:31.538] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:D:\work\web\harmonyos\entry\.preview\default\generated\r\default cache.
+[2025-02-28T13:46:31.539] [DEBUG] debug-file - Incremental task entry:default@PreviewCompileResource post-execution cost:3 ms .
+[2025-02-28T13:46:31.539] [DEBUG] debug-file - Update task entry:default@CopyPreviewProfile input file:D:\work\web\harmonyos\entry\src\main\resources\base\profile cache by regenerate.
+[2025-02-28T13:46:31.539] [DEBUG] debug-file - Update task entry:default@CopyPreviewProfile output file:D:\work\web\harmonyos\entry\.preview\default\intermediates\res\default\resources\base\profile cache.
+[2025-02-28T13:46:31.539] [DEBUG] debug-file - Incremental task entry:default@CopyPreviewProfile post-execution cost:1 ms .
+[2025-02-28T13:46:31.539] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:D:\work\web\harmonyos\entry\.preview\default\intermediates\res\default\module.json cache.
+[2025-02-28T13:46:31.539] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:D:\work\web\harmonyos\entry\.preview\default\intermediates\res\default\resources\base\profile\main_pages.json cache.
+[2025-02-28T13:46:31.539] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets post-execution cost:1 ms .
+[2025-02-28T13:46:31.540] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\work\web\harmonyos\entry\.preview\default\intermediates\loader\default cache by regenerate.
+[2025-02-28T13:46:31.540] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\work\web\harmonyos\entry\.preview\default\intermediates\res\default\ResourceTable.txt cache from map.
+[2025-02-28T13:46:31.540] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\work\web\harmonyos\entry\.preview\default\intermediates\process_profile\default\module.json cache by regenerate.
+[2025-02-28T13:46:31.540] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\work\web\harmonyos\entry\.preview\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2025-02-28T13:46:31.540] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\work\web\harmonyos\entry\src\main\ets cache by regenerate.
+[2025-02-28T13:46:31.541] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\work\web\harmonyos\entry\.preview\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2025-02-28T13:46:31.541] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\work\web\harmonyos\entry\.preview\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2025-02-28T13:46:31.541] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\work\web\harmonyos\entry\src\mock\mock-config.json5 cache by regenerate.
+[2025-02-28T13:46:31.541] [DEBUG] debug-file - Update task entry:default@PreviewArkTS output file:D:\work\web\harmonyos\entry\.preview\default\intermediates\loader_out\default\ets cache.
+[2025-02-28T13:46:31.542] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS post-execution cost:3 ms .
+[2025-02-28T13:46:31.549] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2025-02-28T13:46:31.549] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-02-28T13:46:42.007] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:46:42.007] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:46:42.007] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:46:42.514] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:46:42.515] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:46:43.325] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:46:43.325] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:46:43.326] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:46:43.622] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:46:43.623] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:46:45.169] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:46:45.169] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:46:45.170] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:46:45.471] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:46:45.472] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:46:45.473] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:46:45.473] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:46:45.473] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:46:45.753] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:46:45.754] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:46:45.754] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:46:45.754] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:46:45.754] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:46:46.047] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:46:46.048] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:46:49.908] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:46:49.909] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:46:49.909] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:46:50.198] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:46:50.199] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:46:50.200] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:46:50.200] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:46:50.200] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:46:50.480] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:46:50.481] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:46:50.504] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:46:50.504] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:46:50.504] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:46:50.803] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:46:50.804] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:00.154] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:00.154] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:00.155] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:00.456] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:00.456] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:00.521] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:00.522] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:00.522] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:00.810] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:00.810] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:00.811] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:00.811] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:00.811] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:01.115] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:01.115] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:01.116] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:01.116] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:01.116] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:01.420] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:01.420] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:05.212] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:05.212] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:05.213] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:05.512] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:05.512] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:06.311] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:06.311] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:06.312] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:06.597] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:06.597] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:07.067] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:07.068] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:07.068] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:07.354] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:07.354] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:07.355] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:07.355] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:07.356] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:07.646] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:07.646] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:08.596] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:08.596] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:08.597] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:08.899] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:08.899] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:09.312] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:09.313] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:09.313] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:09.599] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:09.599] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:09.600] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:09.600] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:09.601] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:09.888] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:09.889] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:10.000] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:10.000] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:10.000] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:10.306] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:10.307] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:10.308] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:10.308] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:10.308] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:10.601] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:10.601] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:10.602] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:10.602] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:10.603] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:10.891] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:10.891] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:10.892] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:10.892] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:10.892] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:11.171] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:11.172] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:11.173] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:11.173] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:11.173] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:11.460] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:11.460] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:11.766] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:11.766] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:11.767] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:12.110] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:12.111] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:12.112] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:12.112] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:12.112] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:12.391] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:12.391] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:12.631] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:12.632] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:12.632] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:12.910] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:12.910] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:12.911] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:12.911] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:12.911] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:13.195] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:13.196] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:13.196] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:13.197] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:13.197] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:13.511] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:13.512] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:14.808] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:14.808] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:14.808] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:15.099] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:15.100] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:15.100] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:15.101] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:15.101] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:15.385] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:15.386] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:15.386] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:15.387] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:15.387] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:15.673] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:15.704] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:16.222] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:16.222] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:16.223] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:16.513] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:16.513] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:16.831] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:16.832] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:16.832] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:17.132] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:17.132] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:17.133] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:17.133] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:17.134] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:17.459] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:17.460] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:17.566] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-02-28T13:47:17.566] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-02-28T13:47:17.847] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-02-28T13:47:17.847] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-02-28T13:47:28.256] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:28.257] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:28.257] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:28.563] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:28.564] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:31.930] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:31.931] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:31.931] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:32.224] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:32.224] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:32.225] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:32.226] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:32.226] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:32.504] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:32.504] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:32.600] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:32.600] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:32.600] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:32.886] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:32.887] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:32.888] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:32.888] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:32.888] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:33.165] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:33.166] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:35.310] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:35.310] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:35.311] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:35.605] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:35.605] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:35.606] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:35.606] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:35.606] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:35.894] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:35.895] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:40.717] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:40.717] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:40.718] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:41.010] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:41.011] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:52.788] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:52.788] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:52.788] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:53.089] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:53.089] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:53.090] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T13:47:53.090] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T13:47:53.091] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T13:47:53.365] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T13:47:53.366] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T13:47:56.370] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-02-28T13:47:56.371] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-02-28T13:47:56.619] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-02-28T13:47:56.619] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
