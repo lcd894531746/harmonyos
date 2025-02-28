@@ -10871,3 +10871,81 @@
 [2025-02-28T23:27:42.549] [DEBUG] debug-file - entry : default@PreviewArkTS cost memory 1.0474700927734375
 [2025-02-28T23:27:43.946] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
 [2025-02-28T23:27:43.947] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-02-28T23:27:46.453] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-02-28T23:27:46.454] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-02-28T23:27:46.454] [DEBUG] debug-file - Ark compile finished.
+[2025-02-28T23:27:46.455] [INFO] debug-file - Finished :entry:default@PreviewArkTS... after 3 s 912 ms 
+[2025-02-28T23:27:46.456] [DEBUG] debug-file - Executing task :entry:PreviewBuild
+[2025-02-28T23:27:46.456] [DEBUG] debug-file - entry : PreviewBuild cost memory 0.01168060302734375
+[2025-02-28T23:27:46.456] [DEBUG] debug-file - runTaskFromQueue task cost before running: 4 s 125 ms 
+[2025-02-28T23:27:46.456] [INFO] debug-file - Finished :entry:PreviewBuild... after 1 ms 
+[2025-02-28T23:27:46.460] [DEBUG] debug-file - BUILD SUCCESSFUL in 4 s 129 ms 
+[2025-02-28T23:27:46.460] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2025-02-28T23:27:46.460] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2025-02-28T23:27:46.460] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2025-02-28T23:27:46.460] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GeneratePkgContextInfo is up-to-date.
+[2025-02-28T23:27:46.460] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2025-02-28T23:27:46.460] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2025-02-28T23:27:46.460] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2025-02-28T23:27:46.460] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:D:\work\web\harmonyos\entry\src\main\resources cache by regenerate.
+[2025-02-28T23:27:46.461] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:D:\work\web\harmonyos\entry\.preview\default\intermediates\merge_profile\default\module.json cache by regenerate.
+[2025-02-28T23:27:46.461] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:D:\work\web\harmonyos\entry\.preview\default\intermediates\res\default cache.
+[2025-02-28T23:27:46.462] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:D:\work\web\harmonyos\entry\.preview\default\generated\r\default cache.
+[2025-02-28T23:27:46.463] [DEBUG] debug-file - Incremental task entry:default@PreviewCompileResource post-execution cost:3 ms .
+[2025-02-28T23:27:46.463] [DEBUG] debug-file - Update task entry:default@CopyPreviewProfile input file:D:\work\web\harmonyos\entry\src\main\resources\base\profile cache by regenerate.
+[2025-02-28T23:27:46.463] [DEBUG] debug-file - Update task entry:default@CopyPreviewProfile output file:D:\work\web\harmonyos\entry\.preview\default\intermediates\res\default\resources\base\profile cache.
+[2025-02-28T23:27:46.463] [DEBUG] debug-file - Incremental task entry:default@CopyPreviewProfile post-execution cost:1 ms .
+[2025-02-28T23:27:46.463] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:D:\work\web\harmonyos\entry\.preview\default\intermediates\res\default\module.json cache.
+[2025-02-28T23:27:46.463] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:D:\work\web\harmonyos\entry\.preview\default\intermediates\res\default\resources\base\profile\main_pages.json cache.
+[2025-02-28T23:27:46.463] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets post-execution cost:1 ms .
+[2025-02-28T23:27:46.464] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\work\web\harmonyos\entry\.preview\default\intermediates\loader\default cache by regenerate.
+[2025-02-28T23:27:46.464] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\work\web\harmonyos\entry\.preview\default\intermediates\res\default\ResourceTable.txt cache from map.
+[2025-02-28T23:27:46.464] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\work\web\harmonyos\entry\.preview\default\intermediates\process_profile\default\module.json cache by regenerate.
+[2025-02-28T23:27:46.464] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\work\web\harmonyos\entry\.preview\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2025-02-28T23:27:46.464] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\work\web\harmonyos\entry\src\main\ets cache by regenerate.
+[2025-02-28T23:27:46.465] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\work\web\harmonyos\entry\.preview\default\intermediates\loader\default\pkgContextInfo.json cache by regenerate.
+[2025-02-28T23:27:46.465] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\work\web\harmonyos\entry\.preview\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2025-02-28T23:27:46.466] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\work\web\harmonyos\entry\src\mock\mock-config.json5 cache by regenerate.
+[2025-02-28T23:27:46.466] [DEBUG] debug-file - Update task entry:default@PreviewArkTS output file:D:\work\web\harmonyos\entry\.preview\default\intermediates\loader_out\default\ets cache.
+[2025-02-28T23:27:46.466] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS post-execution cost:3 ms .
+[2025-02-28T23:27:46.473] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2025-02-28T23:27:46.473] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-02-28T23:29:00.883] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T23:29:00.884] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T23:29:00.883] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T23:29:01.424] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T23:29:01.425] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T23:29:01.427] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T23:29:01.427] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T23:29:01.426] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T23:29:01.718] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T23:29:01.720] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T23:29:03.720] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T23:29:03.720] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T23:29:03.719] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T23:29:04.020] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T23:29:04.021] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T23:29:04.551] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T23:29:04.551] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T23:29:04.551] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T23:29:04.850] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T23:29:04.851] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T23:29:04.852] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T23:29:04.853] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T23:29:04.852] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T23:29:05.150] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T23:29:05.152] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T23:29:05.153] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T23:29:05.153] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T23:29:05.152] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T23:29:05.446] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T23:29:05.448] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T23:29:05.866] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-02-28T23:29:05.867] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-28T23:29:05.866] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-02-28T23:29:06.163] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-02-28T23:29:06.164] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-02-28T23:29:06.610] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-02-28T23:29:06.612] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-02-28T23:29:06.961] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-02-28T23:29:06.963] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
