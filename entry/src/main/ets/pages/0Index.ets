@@ -1,51 +1,44 @@
 
-interface  swiper {
-  value:string,
-  color:string|Color,
-  msg:string
+
+@Builder function  navItem(){
+  Image($r('app.media.feigou')).width('90%')
 }
 
-@Extend(Text)
-function swiperItem (bgcolor:ResourceColor,msg:string){
-  .fontSize(30).fontColor(Color.White).width('100%').textAlign(TextAlign.Center)
-  .backgroundColor(bgcolor)
-  .onClick(()=>{
-    AlertDialog.show({
-      message:msg
-    })
-  })
+@Styles function intCss(){
+  .width('100%')
+  .height('70%')
 }
 
 @Entry
 @Component
 struct Index {
-
-  @State Swiperlist:swiper[]=[
-    {
-      value:'1',
-      color:'#0096ff',
-      msg:'第一个'
-    },
-    {
-      value:'2',
-      color:Color.Blue,
-      msg:'第二个'
-
-    },{
-    value:'3',
-    color:Color.Gray,
-    msg:'第三个'
-  }
-  ]
+  Scroller:Scroller=new Scroller()
   build() {
-    Column(){
-      Swiper(){
-        ForEach(this.Swiperlist,(item:swiper,index:number)=>{
-          Text(item.value).swiperItem(item.color,item.msg)
-        })
-      }.width('100%').height(200).autoPlay(true).interval(1000).loop(true)
-    }.width('100%').height('100%')
-
+    Column({space:20}){
+      Scroll(this.Scroller){
+        Column({space:50}){
+          ForEach(Array.from({length:5}),()=>{
+            navItem()
+          })
+        }
+      }.intCss()
+      .scrollable(ScrollDirection.Vertical)//设置滚动方向
+      .scrollBar(BarState.Auto)// 设置是否显示滚动条
+      .scrollBarColor(Color.Brown)
+      .scrollBarWidth(10)
+      .edgeEffect(EdgeEffect.Spring)//滚动到边缘的时候滚动条的效果
+      Button('回到顶部').onClick(()=>{
+        console.log('回到顶部')
+        this.Scroller.scrollEdge(Edge.Top)
+      })
+      Button('回到底部').onClick(()=>{
+        console.log('回到底部')
+        this.Scroller.scrollEdge(Edge.Bottom)
+      })
+      Button('获取当前位置').onClick(()=>{
+        console.log('获取当前位置')
+        AlertDialog.show({message:this.Scroller.currentOffset().yOffset.toString()})
+      })
+    }
   }
 }
-
