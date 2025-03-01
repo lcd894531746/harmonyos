@@ -48,7 +48,7 @@ struct Index {
           Text('中间区域-zuihou ').margin({bottom:100})
           Text('中间区域-zuihou ').margin({bottom:100})
         }.width('100%')
-      }.width('100%').height('90%').backgroundColor('#fff').zIndex(2).padding(20)
+      }.width('100%').height('90%').backgroundColor('#fff').zIndex(2).padding(20).borderRadius({topLeft:10,topRight:10})
       Row(){
         Column({
           space:10
