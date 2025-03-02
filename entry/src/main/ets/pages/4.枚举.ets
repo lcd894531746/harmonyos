@@ -19,7 +19,7 @@ console.log("姓名:",person1.name,person1.canDo('唱歌'));
 
 // 联合类型
 
-let  sex: "man"|"women"|'secret'='man'
+let  sex: "man"|"women"|'secret' = 'man'
 
 // 枚举
 enum colors {
