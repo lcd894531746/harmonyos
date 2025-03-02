@@ -1,0 +1,53 @@
+@Entry
+@Component
+struct Index {
+  build() {
+
+    // barPosition:BarPosition.End 配置tabbar在顶部还是底部
+    Tabs({barPosition:BarPosition.Start}){
+      TabContent(){
+        Column(){
+          Text('第一个')
+          Text('第一个')
+          Text('第一个')
+          Text('第一个')
+          Text('第一个')
+        }
+      }.tabBar('第一个第一个第一个第一个第一个第一个第一个')
+      TabContent(){
+        Text('第二个')
+      }.tabBar('第二个第二个第二个第二个第二个第二个第二个')
+      TabContent(){
+        Text('第三个')
+      }.tabBar('第三个第三个第三个第三个第三个第三个第三个第三个')
+      TabContent(){
+        Text('第四个')
+      }.tabBar('第四个第四个第四个第四个第四个第四个第四个第四个第四个')
+      TabContent(){
+        Text('第四个')
+      }.tabBar('第四个第四个第四个第四个第四个第四个第四个第四个第四个')
+      TabContent(){
+        Text('第四个')
+      }.tabBar('第四个第四个第四个第四个第四个第四个第四个第四个第四个')
+      TabContent(){
+        Text('第四个')
+      }.tabBar('第四个第四个第四个第四个第四个第四个第四个第四个第四个')
+      TabContent(){
+        Text('第四个')
+      }.tabBar('第四个第四个第四个第四个第四个第四个第四个第四个第四个')
+      TabContent(){
+        Text('第四个')
+      }.tabBar('第四个第四个第四个第四个第四个第四个第四个第四个第四个')
+    }
+    .vertical(false)//垂直还是水平方向
+    .scrollable(true)//是否允许手势滑动
+    .animationDuration(500)//滑动的时间
+    .barMode(BarMode.Scrollable)
+    .onChange((Index:number)=>{
+      console.log('change事件,当前第几个tans:',Index)
+    })
+    .onTabBarClick((index:number)=>{
+      console.log('点击第几个tabbar:',index)
+    })
+  }
+}
