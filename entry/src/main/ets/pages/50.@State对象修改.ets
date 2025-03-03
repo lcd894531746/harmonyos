@@ -1,3 +1,4 @@
+
 interface  car{
   name:string
   type:string
