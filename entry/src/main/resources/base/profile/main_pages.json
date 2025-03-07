@@ -1,5 +1,7 @@
 {
   "src": [
-    "pages/18.定位练习"
+    "pages/0Index",
+    "pages/secends",
+    "pages/firstPage"
   ]
 }
