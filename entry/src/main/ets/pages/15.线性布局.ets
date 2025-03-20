@@ -1,51 +1,60 @@
-
 @Entry
 @Component
 struct Index {
   build() {
-    Column(){
+    Column() {
       // 顶部
-      Row(){
+      Row() {
         Text('❌')
         Text('帮助')
       }.width('100%').justifyContent(FlexAlign.SpaceBetween)
-      Row(){
+
+      Row() {
         Image($r('app.media.jd')).width('100%')
       }.height(200)
 
-      Column({space:20}){
+      Column({ space: 20 }) {
         TextInput({
-          placeholder:'国家/地址',
+          placeholder: '国家/地址',
         })
         TextInput({
-          placeholder:'请输入手机号码',
+          placeholder: '请输入手机号码',
         }).type(InputType.Password)
       }
-      Row(){
+
+      Row() {
         Checkbox({
-          name:'Radio1',
-          group:'radioGroup'
+          name: 'Radio1',
+          group: 'radioGroup'
         }).select(false)
+          .onChange((e: boolean) => {
+            console.log('选中了', e)
+          })
         Text('我已经阅读同意我已经阅读同意我已经阅读同意我已经阅读同意')
-      }.width('90%').margin({top:20}).alignItems(VerticalAlign.Top)
+      }.width('90%').margin({ top: 20 }).alignItems(VerticalAlign.Top)
 
-     Button('登录').width('100%').margin({top:30}).backgroundColor('red')
+      Button('登录').width('100%').margin({ top: 30 }).backgroundColor('red')
 
-      Row(){
+      Row() {
         Text('新用户注册')
-        Text('账号密码登录').margin({left:20,right:20})
+        Text('账号密码登录').margin({ left: 20, right: 20 })
         Text('无法登录')
-      }.justifyContent(FlexAlign.Center).width('100%').margin({top:15})
+      }.justifyContent(FlexAlign.Center).width('100%').margin({ top: 15 })
 
-      Text('其他登录').width('100%').textAlign(TextAlign.Center).margin({top:80,bottom:20})
+      Text('其他登录').width('100%').textAlign(TextAlign.Center).margin({ top: 80, bottom: 20 })
 
-      Row(){
+      Row() {
         Image($r('app.media.app_icon')).width(50).borderRadius(25)
         Image($r('app.media.app_icon')).width(50).borderRadius(25)
         Image($r('app.media.app_icon')).width(50).borderRadius(25)
         Image($r('app.media.app_icon')).width(50).borderRadius(25)
       }.width('100%').justifyContent(FlexAlign.SpaceAround)
 
-    }.width('100%').height("100%").backgroundColor(Color.White).padding(20).alignItems(HorizontalAlign.Start)
+    }
+    .width('100%')
+    .height("100%")
+    .backgroundColor(Color.White)
+    .padding(20)
+    .alignItems(HorizontalAlign.Start)
   }
 }
