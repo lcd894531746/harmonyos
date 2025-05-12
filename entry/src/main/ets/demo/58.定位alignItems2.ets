@@ -1,23 +1,23 @@
 // box2
 let box2: Record<string, Record<string, string | VerticalAlign | HorizontalAlign>> = {
-  'top': { 'anchor': '__container__', 'align': VerticalAlign.Top },
-  'right': { 'anchor': '__container__', 'align': HorizontalAlign.End },
+  'bottom': { 'anchor': 'box3', 'align': VerticalAlign.Top },
+  'left': { 'anchor': 'box3', 'align': HorizontalAlign.End },
 }
 
 let box3: Record<string, Record<string, string | VerticalAlign | HorizontalAlign>> = {
-  'center': { 'anchor': '__container__', 'align': VerticalAlign.Center },
-  'middle': { 'anchor': '__container__', 'align': HorizontalAlign.Center },
+  'top': { 'anchor': 'box1', 'align': VerticalAlign.Bottom },
+  'left': { 'anchor': 'box1', 'align': HorizontalAlign.End },
 }
 
 let box4: Record<string, Record<string, string | VerticalAlign | HorizontalAlign>> = {
-  'bottom': { 'anchor': '__container__', 'align': VerticalAlign.Bottom },
-  'left': { 'anchor': '__container__', 'align': HorizontalAlign.Start },
+  'top': { 'anchor': "box3", 'align': VerticalAlign.Bottom },
+  'right': { "anchor": "box3", 'align': HorizontalAlign.Start }
 }
 
 
 let box5: Record<string, Record<string, string | VerticalAlign | HorizontalAlign>> = {
-  'right': { 'anchor': '__container__', 'align': HorizontalAlign.End },
-  'bottom': { 'anchor': '__container__', 'align': VerticalAlign.Bottom },
+  'top': { 'anchor': 'box3', 'align': VerticalAlign.Bottom },
+  'left': { 'anchor': 'box3', 'align': HorizontalAlign.End }
 }
 
 @Entry
@@ -35,27 +35,35 @@ struct Index {
       RelativeContainer() {
         Column() {
           Text('box1')
-        }.int()
+        }
+        .id('box1')
+        .int()
         .justifyContent(FlexAlign.Center)
         .alignItems(HorizontalAlign.Center)
 
         Column() {
           Text('box2')
-        }.int()
+        }
+        .int()
+        .id('box2')
         .alignRules(box2)
         .justifyContent(FlexAlign.Center)
         .alignItems(HorizontalAlign.Center)
 
         Column() {
           Text('box3')
-        }.int()
+        }
+        .int()
+        .id('box3')
         .alignRules(box3)
         .justifyContent(FlexAlign.Center)
         .alignItems(HorizontalAlign.Center)
 
         Column() {
           Text('box4')
-        }.int()
+        }
+        .int()
+        .id('box4')
         .alignRules(box4)
         .justifyContent(FlexAlign.Center)
         .alignItems(HorizontalAlign.Center)

@@ -1,7 +1,7 @@
 {
   "src": [
-    "pages/0Index",
-    "pages/secends",
-    "pages/firstPage"
+    "pages/Index",
+    "pages/addTask",
+    "pages/taskDetail"
   ]
 }

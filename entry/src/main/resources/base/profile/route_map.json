@@ -1,0 +1,12 @@
+{
+  "routerMap": [
+    {
+      "name": "addTask",
+      "pageSourceFile": "src/main/ets/pages/addTask.ets",
+      "buildFunction": "addTaskbuild",
+      "data": {
+        "description": "this is PageOne"
+      }
+    }
+  ]
+}
